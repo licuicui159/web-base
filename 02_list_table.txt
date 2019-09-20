@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--无序列表 默认用实心圆点标识列表项-->
+    <ul>
+        <li>aaa</li> 
+        <li>bbb</li>
+        <li>ccc</li>
+    </ul>
+    <!--有序列表 默认使用阿拉伯数字标识每条数据，可以使用start属性设置起始的值，默认为1-->
+    <ol type="A" start="3">
+        <li >AAA</li>
+        <li>BBB</li>
+        <li>CCC</li>
+    </ol>
+
+    <!--列表嵌套 在已有列表中嵌套添加另一个列表，常见于下拉菜单-->
+    <ol >
+        <li >西游记</li>
+            <ul>
+                <li>孙悟空</li> 
+                <li>猪八戒</li>
+                <li>唐僧</li>
+            </ul>
+        <li>水浒传</li>
+            <ul>
+                <li>aaa</li> 
+                <li>bbb</li>
+                <li>ccc</li>
+            </ul>
+        <li>三国演义</li>
+            <ul>
+                <li>aaa</li> 
+                <li>bbb</li>
+                <li>ccc</li>
+            </ul>
+    </ol>
+    
+<hr>
+    
+    <table width="300"  border="1">
+        <caption>学生信息管理</caption>
+        <!--行1作为标题行-->
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>班级</th>
+        </tr>
+        <!--行2-->
+        <tr>
+            <td>张三</td>
+            <td>20</td>
+            <td>一（2）班</td>
+        </tr>
+        <!--行3-->
+        <tr>
+            <td>李四</td>
+            <td>23</td>
+            <td>一（2）班</td>
+        </tr>
+    </table>
+
+    <hr>
+    <br>
+
+    <table border="1" width="300">
+        <tr>
+            <th>姓名</th>
+            <th colspan="2">电话</th>
+        </tr>
+        <tr>
+            <td>张三</td>
+            <td>010-1234567</td>
+            <td>13245852555</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table border="1" width="300">
+        <tr>
+            <th>姓名</th>
+            <td>张三</td>
+        </tr>
+        <tr>
+            <th rowspan="2">电话</th>
+            <td>010-1234567</td>
+        </tr>
+        <tr>
+            <td >13245852555</td>
+        </tr>
+    </table>
+
+</body>
+</html>

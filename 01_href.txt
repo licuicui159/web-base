@@ -1,0 +1,56 @@
+<!--声明主体为HTML类型-->
+<!--此处为注释-->
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 编写一个标题元素 -->
+    <p></p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 align="center">HTML5 &lt;Day01&gt;</h1>
+        <!-- <h3 align="center">今天</h3> -->
+        <!-- <h3 align="center">今天</h3> -->
+        <!-- <h3 align="center">今天</h3>  -->
+        <!-- 添加一个段落元素 -->
+        <p>
+            换行标签： &nbsp;浏览器&nbsp;会忽略代码中的换行<br/>和空格，只显示为一个空格。想要实现页面中的换行，需要借助于换行标签。
+        </p>
+        
+        <p>&copy;2019百度公司</p>
+
+        <img title="这是一个美女" src="../imgs/img02-3.png" alt="">
+
+        <img width="300"  src="../imgs/img02-3.png" alt="">
+        <img src="../imgs/img01-3.png" alt="路径不正确">
+
+        <hr>
+
+        <span>明天</span>
+        <span>后天</span>
+
+        <hr>
+
+        <a target="_blank" href="https://www.sina.com.cn/" > 新浪</a><br/>
+
+        <a href="https://www.jd.com" target="_self"> 京东 </a>
+
+        <div id="bottom" align="center">&copy; 在页面中呈现版权符号"</div>
+    </body>
+
+    </html>
+
+</body>
+</html>
