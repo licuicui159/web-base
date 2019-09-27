@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 内嵌编写样式 -->
+    <style>
+        #ad{
+            width: 200px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+        }
+        #ad img{
+            width: 100%;
+        }
+        #ad span{
+            position:absolute;
+            top:0;
+            right: 0;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 添加页面元素 -->
+    <div id="ad">
+        <img src="../imgs/img02-3.png" alt="">
+        <span id="spn1">关闭</span>
+    </div>
+
+    <!-- 编写业务逻辑 -->
+    <script>        
+        document.getElementById("spn1").onclick=function(){
+            // 找到图片 设置样式  显示方式=隐藏模式
+            document.getElementById("ad").style.display="none"
+        }
+    </script>
+</body>
+</html>
