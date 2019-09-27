@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+        <!--实现点击按钮在控制台输出-->
+    <!-- <button onclick="console.log('hello,world!')">点我两下</button> -->
+
+    <!-- 添加一个按钮 -->
+    <!-- <input type="button" value="点我一下"> -->
+    <!-- <script > 
+    // 控制台输出 hello world
+    console.log("hello world2") 
+    </script> -->
+
+    <!-- 添加一个按钮 -->
+    <input type="button" value="点我一下">
+    <!-- 引入外部的 JavaScript 文件 -->
+    <script src="js/js02.js"></script>
+
+
+    <script id="a">
+        alert("你看到的是SimplePop")
+
+        // document识别HTML标签
+        document.write("<h3>SimplePop</h3>")    
+    </script>
+    <!-- 文档渲染结束后,再次执行此方法,会重写网页内容 -->
+
+    <!-- 大锅饭 -->
+    <!-- <button onclick="document.write('end')">清空</button> -->
+
+    <!-- 分离啦 -->
+    <button id="btn">清空</button>
+    <script>
+        document.getElementById("btn").onclick=function(){
+            document.write('end');
+        }
+    </script>
+    
+    <!-- 先添加元素 -->
+    <!-- <div id="a1">123</div> -->
+    <!-- 后查找指定元素节点a1 -->
+    <!-- <script>
+        document.getElementById(a1)
+    </script> -->
+
+
+    <script>
+        // <!-- 定义一个变量 -->
+        var str="12q";
+        // <!-- 判断是否是数字 -->
+            isNaN(Number(str))?
+            console.log('不是数字'):
+            console.log('是数字');
+    </script>
+    
+</body>
+</html>
