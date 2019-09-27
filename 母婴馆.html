@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        /* 边框距body上0左2px */
+        body{
+            margin:0 2px;
+        }
+
+        /* 第一层 */
+        #d1{
+            /* 文本框宽度 */
+            width: 40px;
+            /* 文本框背景颜色 */
+            background-color: rgb(236, 151, 151);
+
+            /* 文本居中对齐 */
+            text-align: center;
+            /* 文字距边框1px */
+            padding: 1px;
+            /* 文字颜色 */
+            color:#fff;
+
+            /* 边角显示方式 */
+            border-radius:0 2px 2px 0;
+            /* 边框样式 */
+            /* border:solid 1px rgb(233, 229, 229); */
+        }
+
+        /* 第二层 */
+        #d2{
+            /* 边框距左边40px */
+            margin-left:40px;
+             /* 文字距边框1px */
+            padding: 1px;
+        }
+
+        /* 第三层 */
+        #d3{
+            margin-left:40px;
+            padding: 1px;
+            color: rgb(145, 137, 137);
+        }
+
+        /* 第四层 */
+        #nav #d4{
+            width: 150px;
+            height:80px;
+            /* 添加一张背景图片 */
+            /* background-image: url('../../imgs/img01-2-3.png');
+            background-repeat: no-repeat;
+            background-position: center; */
+
+            /* 背景属性简写,background-size 单独设置 */
+            background:rgb(250, 247, 247) url('../../imgs/img01-2-3.png') no-repeat center;
+            /* 尺寸 */
+            background-size: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div id="d1">低价</div>
+        <div id="d2">母婴馆</div>
+        <div id="d3">秒杀低至1元</div>
+        <div id="d4"></div>
+    </div>
+</body>
+</html>
