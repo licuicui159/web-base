@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul{
+            padding: 0;
+            margin: 0;
+            /* 除掉无序列表. */
+            list-style-type:none;
+            overflow: hidden;
+        }
+        ul>li{
+            float: left;
+            margin:0 10px ;
+            padding: 10px 5px;
+        }
+        ul>li:hover{
+            background-color: red;
+            color: #fff;
+        }
+        #nav{
+            background-color: rgb(0, 17, 255);
+            color: #fff;
+            width: 100%;
+            position:fixed;
+            top:0;
+            left: 0;
+        }
+        #nav2{
+            background-color: rgb(64, 150, 15);
+            color: #fff;
+            width: 100%;
+            position:fixed;
+            bottom:0;
+            left: 0;
+        }
+
+        p{
+            margin-top: 45px;
+        }
+        /* 设置群组元素属性 */
+        .left,.right{
+            width:100px;
+            height: 300px;
+            border:solid 1px red;
+            position:fixed;
+            top:150px;
+        }
+        .left{
+            left: 0;
+        }
+        .right{
+            right:0;
+        }
+    </style>
+</head>
+<body >
+    <div style="height:1000px" >
+            <div id="nav" >
+                    <ul>
+                        <li>首页</li>
+                        <li>国内</li>
+                        <li>国际</li>
+                    </ul>
+                </div>
+                <p>这是一个导航栏</p>
+                <div id="nav2">
+                    <ul>
+                        <li>首页</li>
+                        <li>国内</li>
+                        <li>国际</li>
+                    </ul>
+                </div>
+                <div class="left">
+            
+                </div>
+                <div class="right">
+            
+                </div>
+    </div>
+</body>
+</html>
