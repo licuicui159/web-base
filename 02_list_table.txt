@@ -45,7 +45,7 @@
     
 <hr>
     
-    <table width="300"  border="1">
+    <table width="300"  border="1" cellspacing="0" cellpadding="15">
         <caption>学生信息管理</caption>
         <!--行1作为标题行-->
         <tr>
